@@ -20,36 +20,43 @@ contract MyScript is Script {
     function run() external {
         vm.startBroadcast();
 
-        // baseRatePerBlock: 年基準利率
-        // multiplierPerBlock: 年利率乘数
+        // baseRatePerBlock: 年基準利率 5%
+        // multiplierPerBlock: 年利率乘数 
         // blocksPerYear = 2102400 按照 Ethereum 每15秒出一塊所計算
-        // 若需要若需要轉換成以區塊為利息計算單位，並以 0.05% 作為年基準利率的話，baseRatePerYear 為 10513
-        // 同上，須將年利率乘數轉換為區塊計算，帶入後要除以 blocksPerYear，因此這邊設定為 105 / 2102400 = 0.00005
-        uint baseRatePerYear = 10513; 
-        uint multiplierPerYear = 105; 
+        // 參考 compound v2 WhitePaperInterestRateModel 合約 https://etherscan.io/address/0xd928c8ead620bb316d2cefe3caf81dc2dec6ff63#readContract
+        // 若需要若需要轉換成以區塊為利息計算單位，並以 0.05% 作為年基準利率的話，baseRate = 5e16
+        // multiplier 為 15e16
+        uint baseRatePerYear = 5e16; 
+        uint multiplierPerYear = 15e16; 
 
         // new underlying token 
         ERC20 underLyingToken = new ERC20("WELLYTK","WET");
 
-        // the simple oracle is used to be a price feed from chainlink to Comptroller
-        SimplePriceOracle simplePriceOracle = new SimplePriceOracle();
-        PriceOracle oracle = PriceOracle(simplePriceOracle);
-
         Comptroller comptroller = new Comptroller();
-        comptroller._setPriceOracle(oracle);
+        // set the proxy contract for Comptroller
+        Unitroller unitroller = new Unitroller();
+        Comptroller unitrollerProxy = Comptroller(address(unitroller));
+        unitroller._setPendingImplementation(address(comptroller));
+        
+        //Check caller is pendingImplementation and pendingImplementation ≠ address(0)
+        //因此 _acceptImplementation 必須由 comptroller (Implementation) 合約進行呼叫
+        //vm.prank(address(comptroller)); 無法在廣播裡使用 prank
+        unitroller._acceptImplementation();
 
-        ComptrollerInterface comptroller_ = ComptrollerInterface(address(comptroller));
-        WhitePaperInterestRateModel whitePaperContract = new WhitePaperInterestRateModel(baseRatePerYear, multiplierPerYear);
-        InterestRateModel interestRateModel_ = InterestRateModel(address(whitePaperContract));
+        SimplePriceOracle simplePriceOracle = new SimplePriceOracle();
+        unitrollerProxy._setPriceOracle(simplePriceOracle);
+
+        WhitePaperInterestRateModel interestRateModel_ = new WhitePaperInterestRateModel(baseRatePerYear, multiplierPerYear);
 
         // new the implementation contract for the CErc20Delegator
         CErc20Delegate implementationContract = new CErc20Delegate();
 
+        //The initial exchange rate, scaled by 1e18，1:1的話，應該是設定成 1e18
         new CErc20Delegator(
             address(underLyingToken),
-            comptroller_,
+            unitrollerProxy,
             interestRateModel_,
-            1,
+            1e18,
             "cWELLYTK",
             "cWET",
             18,
@@ -57,11 +64,6 @@ contract MyScript is Script {
             address(implementationContract),
             ""
         );
-        
-        // set the proxy contract for Comptroller
-        Unitroller newUnit = new Unitroller();
-        newUnit._setPendingImplementation(address(comptroller));
-        newUnit._acceptImplementation();
         
         vm.stopBroadcast();
     }
