@@ -71,9 +71,6 @@ contract CompoundTest is CompoundSetup {
 
         // 讓 admin 製造一下 cWET token，供給市場讓 user 可以去借錢
         underLyingToken.mint(admin, 100e18);
-        address[] memory cTokenAddrForAdmin = new address[](1);
-        cTokenAddrForAdmin[0] = address(cWET);
-        unitrollerProxy.enterMarkets(cTokenAddrForAdmin);
         underLyingToken.approve(address(cWET), 100e18);
         cWET.mint(100e18);
         vm.stopPrank();
@@ -86,17 +83,10 @@ contract CompoundTest is CompoundSetup {
     }
 
     function test_mint_and_redeem() public {
-
         vm.startPrank(user);
-        address[] memory cTokenAddr = new address[](1);
-        cTokenAddr[0] = address(cWET);
-        unitrollerProxy.enterMarkets(cTokenAddr);
-
         underLyingToken.approve(address(cWET),1e18);
-
         cWET.mint(1e18);
         cWET.redeem(1e18);
-
         assertEq(underLyingToken.balanceOf(user),1e18);
     }
 
@@ -150,7 +140,7 @@ contract CompoundTest is CompoundSetup {
         underLyingToken.approve(address(cWET), 100e18);
         (uint error, uint liquidity, uint shortfall) = unitrollerProxy.getAccountLiquidity(address(user));
         //可被清算
-        if (liquidity == 0 && shortfall>0)
+        if (error == 0 && liquidity == 0 && shortfall>0)
         {
             CTokenInterface cTokenB = CTokenInterface(address(cTokenB));
             uint repayAmount = 1e18;
