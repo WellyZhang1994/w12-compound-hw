@@ -1,0 +1,2386 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "admin",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "comptrollerImplementation",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "pendingAdmin",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "pendingComptrollerImplementation",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x608060405234801561001057600080fd5b5060e58061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060465760003560e01c80632678224714604b578063bb82aa5e146079578063dcfbc0c714608b578063f851a44014609d575b600080fd5b600154605d906001600160a01b031681565b6040516001600160a01b03909116815260200160405180910390f35b600254605d906001600160a01b031681565b600354605d906001600160a01b031681565b600054605d906001600160a01b03168156fea2646970667358221220cdecd7d681e91570a5ed74dc75b2da4d58c160952111e497deb9eb47951a5f7d64736f6c634300080a0033",
+    "sourceMap": "119:441:7:-:0;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x6080604052348015600f57600080fd5b506004361060465760003560e01c80632678224714604b578063bb82aa5e146079578063dcfbc0c714608b578063f851a44014609d575b600080fd5b600154605d906001600160a01b031681565b6040516001600160a01b03909116815260200160405180910390f35b600254605d906001600160a01b031681565b600354605d906001600160a01b031681565b600054605d906001600160a01b03168156fea2646970667358221220cdecd7d681e91570a5ed74dc75b2da4d58c160952111e497deb9eb47951a5f7d64736f6c634300080a0033",
+    "sourceMap": "119:441:7:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;314:27;;;;;-1:-1:-1;;;;;314:27:7;;;;;;-1:-1:-1;;;;;178:32:47;;;160:51;;148:2;133:18;314:27:7;;;;;;;405:40;;;;;-1:-1:-1;;;;;405:40:7;;;510:47;;;;;-1:-1:-1;;;;;510:47:7;;;218:20;;;;;-1:-1:-1;;;;;218:20:7;;",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "admin()": "f851a440",
+    "comptrollerImplementation()": "bb82aa5e",
+    "pendingAdmin()": "26782247",
+    "pendingComptrollerImplementation()": "dcfbc0c7"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"admin\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"comptrollerImplementation\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"pendingAdmin\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"pendingComptrollerImplementation\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"admin()\":{\"notice\":\"Administrator for this contract\"},\"comptrollerImplementation()\":{\"notice\":\"Active brains of Unitroller\"},\"pendingAdmin()\":{\"notice\":\"Pending administrator for this contract\"},\"pendingComptrollerImplementation()\":{\"notice\":\"Pending brains of Unitroller\"}},\"version\":1}},\"settings\":{\"compilationTarget\":{\"lib/compound-protocol/contracts/ComptrollerStorage.sol\":\"UnitrollerAdminStorage\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@openzeppelin/=lib/openzeppelin-contracts/\",\":compound-protocol/=lib/compound-protocol/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/\",\":forge-std/=lib/forge-std/src/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\",\":openzeppelin/=lib/openzeppelin-contracts/contracts/\"]},\"sources\":{\"lib/compound-protocol/contracts/CToken.sol\":{\"keccak256\":\"0xe0844bfc3e4ff16637c234bd13459c01932b34a3b83fb9779179dc5009adb893\",\"license\":\"BSD-3-Clause\",\"urls\":[\"bzz-raw://46e14e5053d1df67131eeb27229cb55be6c6ccbdd4b8db9b41469fb5d13ce485\",\"dweb:/ipfs/QmVQRwUuiCL39kXiZqHayHpefgXxoNEWUxWNtigPhGjaGh\"]},\"lib/compound-protocol/contracts/CTokenInterfaces.sol\":{\"keccak256\":\"0x7d4526d84f489d61cb128cbbceb9add16b64bf0ae00097cac8c83b5662ffa1d9\",\"license\":\"BSD-3-Clause\",\"urls\":[\"bzz-raw://a1eba59aea76970fc0dbd2db1e5bb6b9ba17c5366117ab0e138d053ed221baad\",\"dweb:/ipfs/Qmb9Xa78W8j4LJZo3MW5wvdxphCd2EEmQc7CcQJ7zAVJ1H\"]},\"lib/compound-protocol/contracts/ComptrollerInterface.sol\":{\"keccak256\":\"0x4111ff0414696caca696cf36ecf3add15133933b51ba57c56cfb08989c82d44f\",\"license\":\"BSD-3-Clause\",\"urls\":[\"bzz-raw://bed8b7b5ed928e0bb2056963df31825eafd648ea5313e57b4d12f62a54766e84\",\"dweb:/ipfs/QmVFrWFGDypompUL6Np68PE7ykdjSNf9DcepLKniJ1fgFk\"]},\"lib/compound-protocol/contracts/ComptrollerStorage.sol\":{\"keccak256\":\"0x0dff6d19b6f74a4fd85d63ce6b6f213b3e9c118dd61185de4dadfc3d3b54182c\",\"license\":\"BSD-3-Clause\",\"urls\":[\"bzz-raw://64c3cbc65cbeeb45351f3db2458452a740d0086545a1cc4d6179e8532c7bc73b\",\"dweb:/ipfs/QmacGXXXtTGfNrPiUxkFLkLJmqCwwjByTd3VTjLsnjAAZY\"]},\"lib/compound-protocol/contracts/EIP20Interface.sol\":{\"keccak256\":\"0xf44fc7783d4a0060119f0096a122c3f305c7a03da75aa21408393d8d7a2e649b\",\"license\":\"BSD-3-Clause\",\"urls\":[\"bzz-raw://98edcf6c8e46b8340174c4fbda657a8390d71167dfad2fef6d26b049659549db\",\"dweb:/ipfs/QmPiqcGe1te4TBiNGuDuBDwEjnhSQWqfqC85hFkbwFVXzi\"]},\"lib/compound-protocol/contracts/EIP20NonStandardInterface.sol\":{\"keccak256\":\"0x5ce25bb36a4ec9490617567a24b55bc813e943bcd4411e060afffe122bea0416\",\"license\":\"BSD-3-Clause\",\"urls\":[\"bzz-raw://ffb7208e6c62875cb0ee30940c5967411c8ddf6b259d52a445ee09fd7020d698\",\"dweb:/ipfs/QmX6HCfaWJxJsG4sK8EAzm75ymmJSgytxomXppgfnJgkh7\"]},\"lib/compound-protocol/contracts/ErrorReporter.sol\":{\"keccak256\":\"0xc565694807fce4d9eb218b77d2e7eb7665e0d6950cbfa9edd1e3c09e417b809c\",\"license\":\"BSD-3-Clause\",\"urls\":[\"bzz-raw://610e579eb6fbd8da9ba8f2d04f17b2213e858466177c488e2f3e4a37a314b864\",\"dweb:/ipfs/QmZmEvsi6qkvaPg6j2u3D3QZJbRtm2CPz8jf83HRkKrxuu\"]},\"lib/compound-protocol/contracts/ExponentialNoError.sol\":{\"keccak256\":\"0x3a05062282ef8cbf6ec372abc73387ac8105a7eb0ea0f38069ebfd0f434ff98b\",\"license\":\"BSD-3-Clause\",\"urls\":[\"bzz-raw://2aed68e944fba607a9eb176f7b5c0fe59f84d82e2e102b8d6db63ce5018548a9\",\"dweb:/ipfs/QmZJVBDDtFpqA8ZerzX4rGdBUsnA1tooHKxpKCWWvqRhJC\"]},\"lib/compound-protocol/contracts/InterestRateModel.sol\":{\"keccak256\":\"0x470821c8ff2120381ead6f54dba5c7b4fc0209682062bde51ea20291176aa0be\",\"license\":\"BSD-3-Clause\",\"urls\":[\"bzz-raw://183fcf6b83f8183ef7930b51a5438ef9ab5a16702b76ab953892e40ef3688e34\",\"dweb:/ipfs/QmTZXAJ6pCPiDbZmdzU1LpVzYru978ApNESrRqhGiKT4Lq\"]},\"lib/compound-protocol/contracts/PriceOracle.sol\":{\"keccak256\":\"0x3bdb44d513360f19ba6e93960fbf37184cd7952492ab0ee4a91f514b3f2ea923\",\"license\":\"BSD-3-Clause\",\"urls\":[\"bzz-raw://6cb12ba32bc5e5a3d5f42e17ea06e0aec41bc811643fd7cf90d3280d4947125c\",\"dweb:/ipfs/QmPnR5prTZQZdLFFb3kEtN5ioAZjnQsrbWX9zUwSKv542N\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.10+commit.fc410830"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "admin",
+          "outputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "comptrollerImplementation",
+          "outputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "pendingAdmin",
+          "outputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "pendingComptrollerImplementation",
+          "outputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {
+          "admin()": {
+            "notice": "Administrator for this contract"
+          },
+          "comptrollerImplementation()": {
+            "notice": "Active brains of Unitroller"
+          },
+          "pendingAdmin()": {
+            "notice": "Pending administrator for this contract"
+          },
+          "pendingComptrollerImplementation()": {
+            "notice": "Pending brains of Unitroller"
+          }
+        },
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":@openzeppelin/=lib/openzeppelin-contracts/",
+        ":compound-protocol/=lib/compound-protocol/",
+        ":ds-test/=lib/forge-std/lib/ds-test/src/",
+        ":erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+        ":forge-std/=lib/forge-std/src/",
+        ":openzeppelin-contracts/=lib/openzeppelin-contracts/",
+        ":openzeppelin/=lib/openzeppelin-contracts/contracts/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "lib/compound-protocol/contracts/ComptrollerStorage.sol": "UnitrollerAdminStorage"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "lib/compound-protocol/contracts/CToken.sol": {
+        "keccak256": "0xe0844bfc3e4ff16637c234bd13459c01932b34a3b83fb9779179dc5009adb893",
+        "urls": [
+          "bzz-raw://46e14e5053d1df67131eeb27229cb55be6c6ccbdd4b8db9b41469fb5d13ce485",
+          "dweb:/ipfs/QmVQRwUuiCL39kXiZqHayHpefgXxoNEWUxWNtigPhGjaGh"
+        ],
+        "license": "BSD-3-Clause"
+      },
+      "lib/compound-protocol/contracts/CTokenInterfaces.sol": {
+        "keccak256": "0x7d4526d84f489d61cb128cbbceb9add16b64bf0ae00097cac8c83b5662ffa1d9",
+        "urls": [
+          "bzz-raw://a1eba59aea76970fc0dbd2db1e5bb6b9ba17c5366117ab0e138d053ed221baad",
+          "dweb:/ipfs/Qmb9Xa78W8j4LJZo3MW5wvdxphCd2EEmQc7CcQJ7zAVJ1H"
+        ],
+        "license": "BSD-3-Clause"
+      },
+      "lib/compound-protocol/contracts/ComptrollerInterface.sol": {
+        "keccak256": "0x4111ff0414696caca696cf36ecf3add15133933b51ba57c56cfb08989c82d44f",
+        "urls": [
+          "bzz-raw://bed8b7b5ed928e0bb2056963df31825eafd648ea5313e57b4d12f62a54766e84",
+          "dweb:/ipfs/QmVFrWFGDypompUL6Np68PE7ykdjSNf9DcepLKniJ1fgFk"
+        ],
+        "license": "BSD-3-Clause"
+      },
+      "lib/compound-protocol/contracts/ComptrollerStorage.sol": {
+        "keccak256": "0x0dff6d19b6f74a4fd85d63ce6b6f213b3e9c118dd61185de4dadfc3d3b54182c",
+        "urls": [
+          "bzz-raw://64c3cbc65cbeeb45351f3db2458452a740d0086545a1cc4d6179e8532c7bc73b",
+          "dweb:/ipfs/QmacGXXXtTGfNrPiUxkFLkLJmqCwwjByTd3VTjLsnjAAZY"
+        ],
+        "license": "BSD-3-Clause"
+      },
+      "lib/compound-protocol/contracts/EIP20Interface.sol": {
+        "keccak256": "0xf44fc7783d4a0060119f0096a122c3f305c7a03da75aa21408393d8d7a2e649b",
+        "urls": [
+          "bzz-raw://98edcf6c8e46b8340174c4fbda657a8390d71167dfad2fef6d26b049659549db",
+          "dweb:/ipfs/QmPiqcGe1te4TBiNGuDuBDwEjnhSQWqfqC85hFkbwFVXzi"
+        ],
+        "license": "BSD-3-Clause"
+      },
+      "lib/compound-protocol/contracts/EIP20NonStandardInterface.sol": {
+        "keccak256": "0x5ce25bb36a4ec9490617567a24b55bc813e943bcd4411e060afffe122bea0416",
+        "urls": [
+          "bzz-raw://ffb7208e6c62875cb0ee30940c5967411c8ddf6b259d52a445ee09fd7020d698",
+          "dweb:/ipfs/QmX6HCfaWJxJsG4sK8EAzm75ymmJSgytxomXppgfnJgkh7"
+        ],
+        "license": "BSD-3-Clause"
+      },
+      "lib/compound-protocol/contracts/ErrorReporter.sol": {
+        "keccak256": "0xc565694807fce4d9eb218b77d2e7eb7665e0d6950cbfa9edd1e3c09e417b809c",
+        "urls": [
+          "bzz-raw://610e579eb6fbd8da9ba8f2d04f17b2213e858466177c488e2f3e4a37a314b864",
+          "dweb:/ipfs/QmZmEvsi6qkvaPg6j2u3D3QZJbRtm2CPz8jf83HRkKrxuu"
+        ],
+        "license": "BSD-3-Clause"
+      },
+      "lib/compound-protocol/contracts/ExponentialNoError.sol": {
+        "keccak256": "0x3a05062282ef8cbf6ec372abc73387ac8105a7eb0ea0f38069ebfd0f434ff98b",
+        "urls": [
+          "bzz-raw://2aed68e944fba607a9eb176f7b5c0fe59f84d82e2e102b8d6db63ce5018548a9",
+          "dweb:/ipfs/QmZJVBDDtFpqA8ZerzX4rGdBUsnA1tooHKxpKCWWvqRhJC"
+        ],
+        "license": "BSD-3-Clause"
+      },
+      "lib/compound-protocol/contracts/InterestRateModel.sol": {
+        "keccak256": "0x470821c8ff2120381ead6f54dba5c7b4fc0209682062bde51ea20291176aa0be",
+        "urls": [
+          "bzz-raw://183fcf6b83f8183ef7930b51a5438ef9ab5a16702b76ab953892e40ef3688e34",
+          "dweb:/ipfs/QmTZXAJ6pCPiDbZmdzU1LpVzYru978ApNESrRqhGiKT4Lq"
+        ],
+        "license": "BSD-3-Clause"
+      },
+      "lib/compound-protocol/contracts/PriceOracle.sol": {
+        "keccak256": "0x3bdb44d513360f19ba6e93960fbf37184cd7952492ab0ee4a91f514b3f2ea923",
+        "urls": [
+          "bzz-raw://6cb12ba32bc5e5a3d5f42e17ea06e0aec41bc811643fd7cf90d3280d4947125c",
+          "dweb:/ipfs/QmPnR5prTZQZdLFFb3kEtN5ioAZjnQsrbWX9zUwSKv542N"
+        ],
+        "license": "BSD-3-Clause"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "lib/compound-protocol/contracts/ComptrollerStorage.sol",
+    "id": 8678,
+    "exportedSymbols": {
+      "CDelegateInterface": [
+        4265
+      ],
+      "CDelegationStorage": [
+        4232
+      ],
+      "CDelegatorInterface": [
+        4252
+      ],
+      "CErc20Interface": [
+        4228
+      ],
+      "CErc20Storage": [
+        4156
+      ],
+      "CToken": [
+        3754
+      ],
+      "CTokenInterface": [
+        4152
+      ],
+      "CTokenStorage": [
+        3837
+      ],
+      "ComptrollerErrorReporter": [
+        8954
+      ],
+      "ComptrollerInterface": [
+        8500
+      ],
+      "ComptrollerV1Storage": [
+        8540
+      ],
+      "ComptrollerV2Storage": [
+        8579
+      ],
+      "ComptrollerV3Storage": [
+        8631
+      ],
+      "ComptrollerV4Storage": [
+        8640
+      ],
+      "ComptrollerV5Storage": [
+        8653
+      ],
+      "ComptrollerV6Storage": [
+        8666
+      ],
+      "ComptrollerV7Storage": [
+        8677
+      ],
+      "EIP20Interface": [
+        8768
+      ],
+      "EIP20NonStandardInterface": [
+        8840
+      ],
+      "ExponentialNoError": [
+        9689
+      ],
+      "InterestRateModel": [
+        10723
+      ],
+      "PriceOracle": [
+        10740
+      ],
+      "TokenErrorReporter": [
+        9056
+      ],
+      "UnitrollerAdminStorage": [
+        8517
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "41:5492:7",
+    "nodes": [
+      {
+        "id": 8502,
+        "nodeType": "PragmaDirective",
+        "src": "41:24:7",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".10"
+        ]
+      },
+      {
+        "id": 8503,
+        "nodeType": "ImportDirective",
+        "src": "67:22:7",
+        "nodes": [],
+        "absolutePath": "lib/compound-protocol/contracts/CToken.sol",
+        "file": "./CToken.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 8678,
+        "sourceUnit": 3755,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 8504,
+        "nodeType": "ImportDirective",
+        "src": "90:27:7",
+        "nodes": [],
+        "absolutePath": "lib/compound-protocol/contracts/PriceOracle.sol",
+        "file": "./PriceOracle.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 8678,
+        "sourceUnit": 10741,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 8517,
+        "nodeType": "ContractDefinition",
+        "src": "119:441:7",
+        "nodes": [
+          {
+            "id": 8507,
+            "nodeType": "VariableDeclaration",
+            "src": "218:20:7",
+            "nodes": [],
+            "constant": false,
+            "documentation": {
+              "id": 8505,
+              "nodeType": "StructuredDocumentation",
+              "src": "157:56:7",
+              "text": " @notice Administrator for this contract"
+            },
+            "functionSelector": "f851a440",
+            "mutability": "mutable",
+            "name": "admin",
+            "nameLocation": "233:5:7",
+            "scope": 8517,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 8506,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "218:7:7",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 8510,
+            "nodeType": "VariableDeclaration",
+            "src": "314:27:7",
+            "nodes": [],
+            "constant": false,
+            "documentation": {
+              "id": 8508,
+              "nodeType": "StructuredDocumentation",
+              "src": "245:64:7",
+              "text": " @notice Pending administrator for this contract"
+            },
+            "functionSelector": "26782247",
+            "mutability": "mutable",
+            "name": "pendingAdmin",
+            "nameLocation": "329:12:7",
+            "scope": 8517,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 8509,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "314:7:7",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 8513,
+            "nodeType": "VariableDeclaration",
+            "src": "405:40:7",
+            "nodes": [],
+            "constant": false,
+            "documentation": {
+              "id": 8511,
+              "nodeType": "StructuredDocumentation",
+              "src": "348:52:7",
+              "text": " @notice Active brains of Unitroller"
+            },
+            "functionSelector": "bb82aa5e",
+            "mutability": "mutable",
+            "name": "comptrollerImplementation",
+            "nameLocation": "420:25:7",
+            "scope": 8517,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 8512,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "405:7:7",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 8516,
+            "nodeType": "VariableDeclaration",
+            "src": "510:47:7",
+            "nodes": [],
+            "constant": false,
+            "documentation": {
+              "id": 8514,
+              "nodeType": "StructuredDocumentation",
+              "src": "452:53:7",
+              "text": " @notice Pending brains of Unitroller"
+            },
+            "functionSelector": "dcfbc0c7",
+            "mutability": "mutable",
+            "name": "pendingComptrollerImplementation",
+            "nameLocation": "525:32:7",
+            "scope": 8517,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 8515,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "510:7:7",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "UnitrollerAdminStorage",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          8517
+        ],
+        "name": "UnitrollerAdminStorage",
+        "nameLocation": "128:22:7",
+        "scope": 8678,
+        "usedErrors": []
+      },
+      {
+        "id": 8540,
+        "nodeType": "ContractDefinition",
+        "src": "562:772:7",
+        "nodes": [
+          {
+            "id": 8523,
+            "nodeType": "VariableDeclaration",
+            "src": "704:25:7",
+            "nodes": [],
+            "constant": false,
+            "documentation": {
+              "id": 8520,
+              "nodeType": "StructuredDocumentation",
+              "src": "625:74:7",
+              "text": " @notice Oracle which gives the price of any given asset"
+            },
+            "functionSelector": "7dc0d1d0",
+            "mutability": "mutable",
+            "name": "oracle",
+            "nameLocation": "723:6:7",
+            "scope": 8540,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_contract$_PriceOracle_$10740",
+              "typeString": "contract PriceOracle"
+            },
+            "typeName": {
+              "id": 8522,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 8521,
+                "name": "PriceOracle",
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 10740,
+                "src": "704:11:7"
+              },
+              "referencedDeclaration": 10740,
+              "src": "704:11:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_PriceOracle_$10740",
+                "typeString": "contract PriceOracle"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 8526,
+            "nodeType": "VariableDeclaration",
+            "src": "846:31:7",
+            "nodes": [],
+            "constant": false,
+            "documentation": {
+              "id": 8524,
+              "nodeType": "StructuredDocumentation",
+              "src": "736:105:7",
+              "text": " @notice Multiplier used to calculate the maximum repayAmount when liquidating a borrow"
+            },
+            "functionSelector": "e8755446",
+            "mutability": "mutable",
+            "name": "closeFactorMantissa",
+            "nameLocation": "858:19:7",
+            "scope": 8540,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 8525,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "846:4:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 8529,
+            "nodeType": "VariableDeclaration",
+            "src": "993:40:7",
+            "nodes": [],
+            "constant": false,
+            "documentation": {
+              "id": 8527,
+              "nodeType": "StructuredDocumentation",
+              "src": "884:104:7",
+              "text": " @notice Multiplier representing the discount on collateral that a liquidator receives"
+            },
+            "functionSelector": "4ada90af",
+            "mutability": "mutable",
+            "name": "liquidationIncentiveMantissa",
+            "nameLocation": "1005:28:7",
+            "scope": 8540,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 8528,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "993:4:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 8532,
+            "nodeType": "VariableDeclaration",
+            "src": "1158:21:7",
+            "nodes": [],
+            "constant": false,
+            "documentation": {
+              "id": 8530,
+              "nodeType": "StructuredDocumentation",
+              "src": "1040:113:7",
+              "text": " @notice Max number of assets a single account can participate in (borrow or use as collateral)"
+            },
+            "functionSelector": "94b2294b",
+            "mutability": "mutable",
+            "name": "maxAssets",
+            "nameLocation": "1170:9:7",
+            "scope": 8540,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 8531,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "1158:4:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 8539,
+            "nodeType": "VariableDeclaration",
+            "src": "1281:49:7",
+            "nodes": [],
+            "constant": false,
+            "documentation": {
+              "id": 8533,
+              "nodeType": "StructuredDocumentation",
+              "src": "1186:90:7",
+              "text": " @notice Per-account mapping of \"assets you are in\", capped by maxAssets"
+            },
+            "functionSelector": "dce15449",
+            "mutability": "mutable",
+            "name": "accountAssets",
+            "nameLocation": "1317:13:7",
+            "scope": 8540,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_contract$_CToken_$3754_$dyn_storage_$",
+              "typeString": "mapping(address => contract CToken[])"
+            },
+            "typeName": {
+              "id": 8538,
+              "keyType": {
+                "id": 8534,
+                "name": "address",
+                "nodeType": "ElementaryTypeName",
+                "src": "1289:7:7",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "1281:28:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_contract$_CToken_$3754_$dyn_storage_$",
+                "typeString": "mapping(address => contract CToken[])"
+              },
+              "valueType": {
+                "baseType": {
+                  "id": 8536,
+                  "nodeType": "UserDefinedTypeName",
+                  "pathNode": {
+                    "id": 8535,
+                    "name": "CToken",
+                    "nodeType": "IdentifierPath",
+                    "referencedDeclaration": 3754,
+                    "src": "1300:6:7"
+                  },
+                  "referencedDeclaration": 3754,
+                  "src": "1300:6:7",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_CToken_$3754",
+                    "typeString": "contract CToken"
+                  }
+                },
+                "id": 8537,
+                "nodeType": "ArrayTypeName",
+                "src": "1300:8:7",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_array$_t_contract$_CToken_$3754_$dyn_storage_ptr",
+                  "typeString": "contract CToken[]"
+                }
+              }
+            },
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [
+          {
+            "baseName": {
+              "id": 8518,
+              "name": "UnitrollerAdminStorage",
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 8517,
+              "src": "595:22:7"
+            },
+            "id": 8519,
+            "nodeType": "InheritanceSpecifier",
+            "src": "595:22:7"
+          }
+        ],
+        "canonicalName": "ComptrollerV1Storage",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          8540,
+          8517
+        ],
+        "name": "ComptrollerV1Storage",
+        "nameLocation": "571:20:7",
+        "scope": 8678,
+        "usedErrors": []
+      },
+      {
+        "id": 8579,
+        "nodeType": "ContractDefinition",
+        "src": "1336:1371:7",
+        "nodes": [
+          {
+            "id": 8553,
+            "nodeType": "StructDefinition",
+            "src": "1396:557:7",
+            "nodes": [],
+            "canonicalName": "ComptrollerV2Storage.Market",
+            "members": [
+              {
+                "constant": false,
+                "id": 8544,
+                "mutability": "mutable",
+                "name": "isListed",
+                "nameLocation": "1473:8:7",
+                "nodeType": "VariableDeclaration",
+                "scope": 8553,
+                "src": "1468:13:7",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                },
+                "typeName": {
+                  "id": 8543,
+                  "name": "bool",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "1468:4:7",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 8546,
+                "mutability": "mutable",
+                "name": "collateralFactorMantissa",
+                "nameLocation": "1735:24:7",
+                "nodeType": "VariableDeclaration",
+                "scope": 8553,
+                "src": "1730:29:7",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 8545,
+                  "name": "uint",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "1730:4:7",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 8550,
+                "mutability": "mutable",
+                "name": "accountMembership",
+                "nameLocation": "1853:17:7",
+                "nodeType": "VariableDeclaration",
+                "scope": 8553,
+                "src": "1828:42:7",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_mapping$_t_address_$_t_bool_$",
+                  "typeString": "mapping(address => bool)"
+                },
+                "typeName": {
+                  "id": 8549,
+                  "keyType": {
+                    "id": 8547,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1836:7:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "nodeType": "Mapping",
+                  "src": "1828:24:7",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_mapping$_t_address_$_t_bool_$",
+                    "typeString": "mapping(address => bool)"
+                  },
+                  "valueType": {
+                    "id": 8548,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1847:4:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 8552,
+                "mutability": "mutable",
+                "name": "isComped",
+                "nameLocation": "1938:8:7",
+                "nodeType": "VariableDeclaration",
+                "scope": 8553,
+                "src": "1933:13:7",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                },
+                "typeName": {
+                  "id": 8551,
+                  "name": "bool",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "1933:4:7",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  }
+                },
+                "visibility": "internal"
+              }
+            ],
+            "name": "Market",
+            "nameLocation": "1403:6:7",
+            "scope": 8579,
+            "visibility": "public"
+          },
+          {
+            "id": 8559,
+            "nodeType": "VariableDeclaration",
+            "src": "2097:41:7",
+            "nodes": [],
+            "constant": false,
+            "documentation": {
+              "id": 8554,
+              "nodeType": "StructuredDocumentation",
+              "src": "1959:133:7",
+              "text": " @notice Official mapping of cTokens -> Market metadata\n @dev Used e.g. to determine if a market is supported"
+            },
+            "functionSelector": "8e8f294b",
+            "mutability": "mutable",
+            "name": "markets",
+            "nameLocation": "2131:7:7",
+            "scope": 8579,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Market_$8553_storage_$",
+              "typeString": "mapping(address => struct ComptrollerV2Storage.Market)"
+            },
+            "typeName": {
+              "id": 8558,
+              "keyType": {
+                "id": 8555,
+                "name": "address",
+                "nodeType": "ElementaryTypeName",
+                "src": "2105:7:7",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "2097:26:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Market_$8553_storage_$",
+                "typeString": "mapping(address => struct ComptrollerV2Storage.Market)"
+              },
+              "valueType": {
+                "id": 8557,
+                "nodeType": "UserDefinedTypeName",
+                "pathNode": {
+                  "id": 8556,
+                  "name": "Market",
+                  "nodeType": "IdentifierPath",
+                  "referencedDeclaration": 8553,
+                  "src": "2116:6:7"
+                },
+                "referencedDeclaration": 8553,
+                "src": "2116:6:7",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_struct$_Market_$8553_storage_ptr",
+                  "typeString": "struct ComptrollerV2Storage.Market"
+                }
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 8562,
+            "nodeType": "VariableDeclaration",
+            "src": "2409:28:7",
+            "nodes": [],
+            "constant": false,
+            "documentation": {
+              "id": 8560,
+              "nodeType": "StructuredDocumentation",
+              "src": "2146:258:7",
+              "text": " @notice The Pause Guardian can pause certain actions as a safety mechanism.\n  Actions which allow users to remove their own assets cannot be paused.\n  Liquidation / seizing / transfer can only be paused globally, not by market."
+            },
+            "functionSelector": "24a3d622",
+            "mutability": "mutable",
+            "name": "pauseGuardian",
+            "nameLocation": "2424:13:7",
+            "scope": 8579,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 8561,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "2409:7:7",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 8564,
+            "nodeType": "VariableDeclaration",
+            "src": "2443:31:7",
+            "nodes": [],
+            "constant": false,
+            "functionSelector": "3c94786f",
+            "mutability": "mutable",
+            "name": "_mintGuardianPaused",
+            "nameLocation": "2455:19:7",
+            "scope": 8579,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_bool",
+              "typeString": "bool"
+            },
+            "typeName": {
+              "id": 8563,
+              "name": "bool",
+              "nodeType": "ElementaryTypeName",
+              "src": "2443:4:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bool",
+                "typeString": "bool"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 8566,
+            "nodeType": "VariableDeclaration",
+            "src": "2480:33:7",
+            "nodes": [],
+            "constant": false,
+            "functionSelector": "e6653f3d",
+            "mutability": "mutable",
+            "name": "_borrowGuardianPaused",
+            "nameLocation": "2492:21:7",
+            "scope": 8579,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_bool",
+              "typeString": "bool"
+            },
+            "typeName": {
+              "id": 8565,
+              "name": "bool",
+              "nodeType": "ElementaryTypeName",
+              "src": "2480:4:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bool",
+                "typeString": "bool"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 8568,
+            "nodeType": "VariableDeclaration",
+            "src": "2519:34:7",
+            "nodes": [],
+            "constant": false,
+            "functionSelector": "87f76303",
+            "mutability": "mutable",
+            "name": "transferGuardianPaused",
+            "nameLocation": "2531:22:7",
+            "scope": 8579,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_bool",
+              "typeString": "bool"
+            },
+            "typeName": {
+              "id": 8567,
+              "name": "bool",
+              "nodeType": "ElementaryTypeName",
+              "src": "2519:4:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bool",
+                "typeString": "bool"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 8570,
+            "nodeType": "VariableDeclaration",
+            "src": "2559:31:7",
+            "nodes": [],
+            "constant": false,
+            "functionSelector": "ac0b0bb7",
+            "mutability": "mutable",
+            "name": "seizeGuardianPaused",
+            "nameLocation": "2571:19:7",
+            "scope": 8579,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_bool",
+              "typeString": "bool"
+            },
+            "typeName": {
+              "id": 8569,
+              "name": "bool",
+              "nodeType": "ElementaryTypeName",
+              "src": "2559:4:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bool",
+                "typeString": "bool"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 8574,
+            "nodeType": "VariableDeclaration",
+            "src": "2596:50:7",
+            "nodes": [],
+            "constant": false,
+            "functionSelector": "731f0c2b",
+            "mutability": "mutable",
+            "name": "mintGuardianPaused",
+            "nameLocation": "2628:18:7",
+            "scope": 8579,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_address_$_t_bool_$",
+              "typeString": "mapping(address => bool)"
+            },
+            "typeName": {
+              "id": 8573,
+              "keyType": {
+                "id": 8571,
+                "name": "address",
+                "nodeType": "ElementaryTypeName",
+                "src": "2604:7:7",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "2596:24:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_address_$_t_bool_$",
+                "typeString": "mapping(address => bool)"
+              },
+              "valueType": {
+                "id": 8572,
+                "name": "bool",
+                "nodeType": "ElementaryTypeName",
+                "src": "2615:4:7",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                }
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 8578,
+            "nodeType": "VariableDeclaration",
+            "src": "2652:52:7",
+            "nodes": [],
+            "constant": false,
+            "functionSelector": "6d154ea5",
+            "mutability": "mutable",
+            "name": "borrowGuardianPaused",
+            "nameLocation": "2684:20:7",
+            "scope": 8579,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_address_$_t_bool_$",
+              "typeString": "mapping(address => bool)"
+            },
+            "typeName": {
+              "id": 8577,
+              "keyType": {
+                "id": 8575,
+                "name": "address",
+                "nodeType": "ElementaryTypeName",
+                "src": "2660:7:7",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "2652:24:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_address_$_t_bool_$",
+                "typeString": "mapping(address => bool)"
+              },
+              "valueType": {
+                "id": 8576,
+                "name": "bool",
+                "nodeType": "ElementaryTypeName",
+                "src": "2671:4:7",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                }
+              }
+            },
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [
+          {
+            "baseName": {
+              "id": 8541,
+              "name": "ComptrollerV1Storage",
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 8540,
+              "src": "1369:20:7"
+            },
+            "id": 8542,
+            "nodeType": "InheritanceSpecifier",
+            "src": "1369:20:7"
+          }
+        ],
+        "canonicalName": "ComptrollerV2Storage",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          8579,
+          8540,
+          8517
+        ],
+        "name": "ComptrollerV2Storage",
+        "nameLocation": "1345:20:7",
+        "scope": 8678,
+        "usedErrors": []
+      },
+      {
+        "id": 8631,
+        "nodeType": "ContractDefinition",
+        "src": "2709:1310:7",
+        "nodes": [
+          {
+            "id": 8586,
+            "nodeType": "StructDefinition",
+            "src": "2769:206:7",
+            "nodes": [],
+            "canonicalName": "ComptrollerV3Storage.CompMarketState",
+            "members": [
+              {
+                "constant": false,
+                "id": 8583,
+                "mutability": "mutable",
+                "name": "index",
+                "nameLocation": "2882:5:7",
+                "nodeType": "VariableDeclaration",
+                "scope": 8586,
+                "src": "2874:13:7",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint224",
+                  "typeString": "uint224"
+                },
+                "typeName": {
+                  "id": 8582,
+                  "name": "uint224",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "2874:7:7",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint224",
+                    "typeString": "uint224"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 8585,
+                "mutability": "mutable",
+                "name": "block",
+                "nameLocation": "2963:5:7",
+                "nodeType": "VariableDeclaration",
+                "scope": 8586,
+                "src": "2956:12:7",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint32",
+                  "typeString": "uint32"
+                },
+                "typeName": {
+                  "id": 8584,
+                  "name": "uint32",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "2956:6:7",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint32",
+                    "typeString": "uint32"
+                  }
+                },
+                "visibility": "internal"
+              }
+            ],
+            "name": "CompMarketState",
+            "nameLocation": "2776:15:7",
+            "scope": 8631,
+            "visibility": "public"
+          },
+          {
+            "id": 8591,
+            "nodeType": "VariableDeclaration",
+            "src": "3019:26:7",
+            "nodes": [],
+            "constant": false,
+            "documentation": {
+              "id": 8587,
+              "nodeType": "StructuredDocumentation",
+              "src": "2981:33:7",
+              "text": "@notice A list of all markets"
+            },
+            "functionSelector": "52d84d1e",
+            "mutability": "mutable",
+            "name": "allMarkets",
+            "nameLocation": "3035:10:7",
+            "scope": 8631,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_array$_t_contract$_CToken_$3754_$dyn_storage",
+              "typeString": "contract CToken[]"
+            },
+            "typeName": {
+              "baseType": {
+                "id": 8589,
+                "nodeType": "UserDefinedTypeName",
+                "pathNode": {
+                  "id": 8588,
+                  "name": "CToken",
+                  "nodeType": "IdentifierPath",
+                  "referencedDeclaration": 3754,
+                  "src": "3019:6:7"
+                },
+                "referencedDeclaration": 3754,
+                "src": "3019:6:7",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_contract$_CToken_$3754",
+                  "typeString": "contract CToken"
+                }
+              },
+              "id": 8590,
+              "nodeType": "ArrayTypeName",
+              "src": "3019:8:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_array$_t_contract$_CToken_$3754_$dyn_storage_ptr",
+                "typeString": "contract CToken[]"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 8594,
+            "nodeType": "VariableDeclaration",
+            "src": "3127:20:7",
+            "nodes": [],
+            "constant": false,
+            "documentation": {
+              "id": 8592,
+              "nodeType": "StructuredDocumentation",
+              "src": "3052:70:7",
+              "text": "@notice The rate at which the flywheel distributes COMP, per block"
+            },
+            "functionSelector": "aa900754",
+            "mutability": "mutable",
+            "name": "compRate",
+            "nameLocation": "3139:8:7",
+            "scope": 8631,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 8593,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "3127:4:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 8599,
+            "nodeType": "VariableDeclaration",
+            "src": "3230:42:7",
+            "nodes": [],
+            "constant": false,
+            "documentation": {
+              "id": 8595,
+              "nodeType": "StructuredDocumentation",
+              "src": "3154:71:7",
+              "text": "@notice The portion of compRate that each market currently receives"
+            },
+            "functionSelector": "1d7b33d7",
+            "mutability": "mutable",
+            "name": "compSpeeds",
+            "nameLocation": "3262:10:7",
+            "scope": 8631,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
+              "typeString": "mapping(address => uint256)"
+            },
+            "typeName": {
+              "id": 8598,
+              "keyType": {
+                "id": 8596,
+                "name": "address",
+                "nodeType": "ElementaryTypeName",
+                "src": "3238:7:7",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "3230:24:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
+                "typeString": "mapping(address => uint256)"
+              },
+              "valueType": {
+                "id": 8597,
+                "name": "uint",
+                "nodeType": "ElementaryTypeName",
+                "src": "3249:4:7",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                }
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 8605,
+            "nodeType": "VariableDeclaration",
+            "src": "3340:58:7",
+            "nodes": [],
+            "constant": false,
+            "documentation": {
+              "id": 8600,
+              "nodeType": "StructuredDocumentation",
+              "src": "3279:56:7",
+              "text": "@notice The COMP market supply state for each market"
+            },
+            "functionSelector": "6b79c38d",
+            "mutability": "mutable",
+            "name": "compSupplyState",
+            "nameLocation": "3383:15:7",
+            "scope": 8631,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_CompMarketState_$8586_storage_$",
+              "typeString": "mapping(address => struct ComptrollerV3Storage.CompMarketState)"
+            },
+            "typeName": {
+              "id": 8604,
+              "keyType": {
+                "id": 8601,
+                "name": "address",
+                "nodeType": "ElementaryTypeName",
+                "src": "3348:7:7",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "3340:35:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_CompMarketState_$8586_storage_$",
+                "typeString": "mapping(address => struct ComptrollerV3Storage.CompMarketState)"
+              },
+              "valueType": {
+                "id": 8603,
+                "nodeType": "UserDefinedTypeName",
+                "pathNode": {
+                  "id": 8602,
+                  "name": "CompMarketState",
+                  "nodeType": "IdentifierPath",
+                  "referencedDeclaration": 8586,
+                  "src": "3359:15:7"
+                },
+                "referencedDeclaration": 8586,
+                "src": "3359:15:7",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_struct$_CompMarketState_$8586_storage_ptr",
+                  "typeString": "struct ComptrollerV3Storage.CompMarketState"
+                }
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 8611,
+            "nodeType": "VariableDeclaration",
+            "src": "3466:58:7",
+            "nodes": [],
+            "constant": false,
+            "documentation": {
+              "id": 8606,
+              "nodeType": "StructuredDocumentation",
+              "src": "3405:56:7",
+              "text": "@notice The COMP market borrow state for each market"
+            },
+            "functionSelector": "8c57804e",
+            "mutability": "mutable",
+            "name": "compBorrowState",
+            "nameLocation": "3509:15:7",
+            "scope": 8631,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_CompMarketState_$8586_storage_$",
+              "typeString": "mapping(address => struct ComptrollerV3Storage.CompMarketState)"
+            },
+            "typeName": {
+              "id": 8610,
+              "keyType": {
+                "id": 8607,
+                "name": "address",
+                "nodeType": "ElementaryTypeName",
+                "src": "3474:7:7",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "3466:35:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_CompMarketState_$8586_storage_$",
+                "typeString": "mapping(address => struct ComptrollerV3Storage.CompMarketState)"
+              },
+              "valueType": {
+                "id": 8609,
+                "nodeType": "UserDefinedTypeName",
+                "pathNode": {
+                  "id": 8608,
+                  "name": "CompMarketState",
+                  "nodeType": "IdentifierPath",
+                  "referencedDeclaration": 8586,
+                  "src": "3485:15:7"
+                },
+                "referencedDeclaration": 8586,
+                "src": "3485:15:7",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_struct$_CompMarketState_$8586_storage_ptr",
+                  "typeString": "struct ComptrollerV3Storage.CompMarketState"
+                }
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 8618,
+            "nodeType": "VariableDeclaration",
+            "src": "3641:69:7",
+            "nodes": [],
+            "constant": false,
+            "documentation": {
+              "id": 8612,
+              "nodeType": "StructuredDocumentation",
+              "src": "3531:105:7",
+              "text": "@notice The COMP borrow index for each market for each supplier as of the last time they accrued COMP"
+            },
+            "functionSelector": "b21be7fd",
+            "mutability": "mutable",
+            "name": "compSupplierIndex",
+            "nameLocation": "3693:17:7",
+            "scope": 8631,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_address_$_t_mapping$_t_address_$_t_uint256_$_$",
+              "typeString": "mapping(address => mapping(address => uint256))"
+            },
+            "typeName": {
+              "id": 8617,
+              "keyType": {
+                "id": 8613,
+                "name": "address",
+                "nodeType": "ElementaryTypeName",
+                "src": "3649:7:7",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "3641:44:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_address_$_t_mapping$_t_address_$_t_uint256_$_$",
+                "typeString": "mapping(address => mapping(address => uint256))"
+              },
+              "valueType": {
+                "id": 8616,
+                "keyType": {
+                  "id": 8614,
+                  "name": "address",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "3668:7:7",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  }
+                },
+                "nodeType": "Mapping",
+                "src": "3660:24:7",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
+                  "typeString": "mapping(address => uint256)"
+                },
+                "valueType": {
+                  "id": 8615,
+                  "name": "uint",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "3679:4:7",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                }
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 8625,
+            "nodeType": "VariableDeclaration",
+            "src": "3827:69:7",
+            "nodes": [],
+            "constant": false,
+            "documentation": {
+              "id": 8619,
+              "nodeType": "StructuredDocumentation",
+              "src": "3717:105:7",
+              "text": "@notice The COMP borrow index for each market for each borrower as of the last time they accrued COMP"
+            },
+            "functionSelector": "ca0af043",
+            "mutability": "mutable",
+            "name": "compBorrowerIndex",
+            "nameLocation": "3879:17:7",
+            "scope": 8631,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_address_$_t_mapping$_t_address_$_t_uint256_$_$",
+              "typeString": "mapping(address => mapping(address => uint256))"
+            },
+            "typeName": {
+              "id": 8624,
+              "keyType": {
+                "id": 8620,
+                "name": "address",
+                "nodeType": "ElementaryTypeName",
+                "src": "3835:7:7",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "3827:44:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_address_$_t_mapping$_t_address_$_t_uint256_$_$",
+                "typeString": "mapping(address => mapping(address => uint256))"
+              },
+              "valueType": {
+                "id": 8623,
+                "keyType": {
+                  "id": 8621,
+                  "name": "address",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "3854:7:7",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  }
+                },
+                "nodeType": "Mapping",
+                "src": "3846:24:7",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
+                  "typeString": "mapping(address => uint256)"
+                },
+                "valueType": {
+                  "id": 8622,
+                  "name": "uint",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "3865:4:7",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                }
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 8630,
+            "nodeType": "VariableDeclaration",
+            "src": "3973:43:7",
+            "nodes": [],
+            "constant": false,
+            "documentation": {
+              "id": 8626,
+              "nodeType": "StructuredDocumentation",
+              "src": "3903:65:7",
+              "text": "@notice The COMP accrued but not yet transferred to each user"
+            },
+            "functionSelector": "cc7ebdc4",
+            "mutability": "mutable",
+            "name": "compAccrued",
+            "nameLocation": "4005:11:7",
+            "scope": 8631,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
+              "typeString": "mapping(address => uint256)"
+            },
+            "typeName": {
+              "id": 8629,
+              "keyType": {
+                "id": 8627,
+                "name": "address",
+                "nodeType": "ElementaryTypeName",
+                "src": "3981:7:7",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "3973:24:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
+                "typeString": "mapping(address => uint256)"
+              },
+              "valueType": {
+                "id": 8628,
+                "name": "uint",
+                "nodeType": "ElementaryTypeName",
+                "src": "3992:4:7",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                }
+              }
+            },
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [
+          {
+            "baseName": {
+              "id": 8580,
+              "name": "ComptrollerV2Storage",
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 8579,
+              "src": "2742:20:7"
+            },
+            "id": 8581,
+            "nodeType": "InheritanceSpecifier",
+            "src": "2742:20:7"
+          }
+        ],
+        "canonicalName": "ComptrollerV3Storage",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          8631,
+          8579,
+          8540,
+          8517
+        ],
+        "name": "ComptrollerV3Storage",
+        "nameLocation": "2718:20:7",
+        "scope": 8678,
+        "usedErrors": []
+      },
+      {
+        "id": 8640,
+        "nodeType": "ContractDefinition",
+        "src": "4021:436:7",
+        "nodes": [
+          {
+            "id": 8635,
+            "nodeType": "VariableDeclaration",
+            "src": "4236:32:7",
+            "nodes": [],
+            "constant": false,
+            "functionSelector": "21af4569",
+            "mutability": "mutable",
+            "name": "borrowCapGuardian",
+            "nameLocation": "4251:17:7",
+            "scope": 8640,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 8634,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "4236:7:7",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 8639,
+            "nodeType": "VariableDeclaration",
+            "src": "4412:42:7",
+            "nodes": [],
+            "constant": false,
+            "functionSelector": "4a584432",
+            "mutability": "mutable",
+            "name": "borrowCaps",
+            "nameLocation": "4444:10:7",
+            "scope": 8640,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
+              "typeString": "mapping(address => uint256)"
+            },
+            "typeName": {
+              "id": 8638,
+              "keyType": {
+                "id": 8636,
+                "name": "address",
+                "nodeType": "ElementaryTypeName",
+                "src": "4420:7:7",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "4412:24:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
+                "typeString": "mapping(address => uint256)"
+              },
+              "valueType": {
+                "id": 8637,
+                "name": "uint",
+                "nodeType": "ElementaryTypeName",
+                "src": "4431:4:7",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                }
+              }
+            },
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [
+          {
+            "baseName": {
+              "id": 8632,
+              "name": "ComptrollerV3Storage",
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 8631,
+              "src": "4054:20:7"
+            },
+            "id": 8633,
+            "nodeType": "InheritanceSpecifier",
+            "src": "4054:20:7"
+          }
+        ],
+        "canonicalName": "ComptrollerV4Storage",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          8640,
+          8631,
+          8579,
+          8540,
+          8517
+        ],
+        "name": "ComptrollerV4Storage",
+        "nameLocation": "4030:20:7",
+        "scope": 8678,
+        "usedErrors": []
+      },
+      {
+        "id": 8653,
+        "nodeType": "ContractDefinition",
+        "src": "4459:337:7",
+        "nodes": [
+          {
+            "id": 8647,
+            "nodeType": "VariableDeclaration",
+            "src": "4596:53:7",
+            "nodes": [],
+            "constant": false,
+            "documentation": {
+              "id": 8643,
+              "nodeType": "StructuredDocumentation",
+              "src": "4519:72:7",
+              "text": "@notice The portion of COMP that each contributor receives per block"
+            },
+            "functionSelector": "986ab838",
+            "mutability": "mutable",
+            "name": "compContributorSpeeds",
+            "nameLocation": "4628:21:7",
+            "scope": 8653,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
+              "typeString": "mapping(address => uint256)"
+            },
+            "typeName": {
+              "id": 8646,
+              "keyType": {
+                "id": 8644,
+                "name": "address",
+                "nodeType": "ElementaryTypeName",
+                "src": "4604:7:7",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "4596:24:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
+                "typeString": "mapping(address => uint256)"
+              },
+              "valueType": {
+                "id": 8645,
+                "name": "uint",
+                "nodeType": "ElementaryTypeName",
+                "src": "4615:4:7",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                }
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 8652,
+            "nodeType": "VariableDeclaration",
+            "src": "4741:52:7",
+            "nodes": [],
+            "constant": false,
+            "documentation": {
+              "id": 8648,
+              "nodeType": "StructuredDocumentation",
+              "src": "4656:80:7",
+              "text": "@notice Last block at which a contributor's COMP rewards have been allocated"
+            },
+            "functionSelector": "bea6b8b8",
+            "mutability": "mutable",
+            "name": "lastContributorBlock",
+            "nameLocation": "4773:20:7",
+            "scope": 8653,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
+              "typeString": "mapping(address => uint256)"
+            },
+            "typeName": {
+              "id": 8651,
+              "keyType": {
+                "id": 8649,
+                "name": "address",
+                "nodeType": "ElementaryTypeName",
+                "src": "4749:7:7",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "4741:24:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
+                "typeString": "mapping(address => uint256)"
+              },
+              "valueType": {
+                "id": 8650,
+                "name": "uint",
+                "nodeType": "ElementaryTypeName",
+                "src": "4760:4:7",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                }
+              }
+            },
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [
+          {
+            "baseName": {
+              "id": 8641,
+              "name": "ComptrollerV4Storage",
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 8640,
+              "src": "4492:20:7"
+            },
+            "id": 8642,
+            "nodeType": "InheritanceSpecifier",
+            "src": "4492:20:7"
+          }
+        ],
+        "canonicalName": "ComptrollerV5Storage",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          8653,
+          8640,
+          8631,
+          8579,
+          8540,
+          8517
+        ],
+        "name": "ComptrollerV5Storage",
+        "nameLocation": "4468:20:7",
+        "scope": 8678,
+        "usedErrors": []
+      },
+      {
+        "id": 8666,
+        "nodeType": "ContractDefinition",
+        "src": "4798:368:7",
+        "nodes": [
+          {
+            "id": 8660,
+            "nodeType": "VariableDeclaration",
+            "src": "4959:48:7",
+            "nodes": [],
+            "constant": false,
+            "documentation": {
+              "id": 8656,
+              "nodeType": "StructuredDocumentation",
+              "src": "4858:96:7",
+              "text": "@notice The rate at which comp is distributed to the corresponding borrow market (per block)"
+            },
+            "functionSelector": "f4a433c0",
+            "mutability": "mutable",
+            "name": "compBorrowSpeeds",
+            "nameLocation": "4991:16:7",
+            "scope": 8666,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
+              "typeString": "mapping(address => uint256)"
+            },
+            "typeName": {
+              "id": 8659,
+              "keyType": {
+                "id": 8657,
+                "name": "address",
+                "nodeType": "ElementaryTypeName",
+                "src": "4967:7:7",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "4959:24:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
+                "typeString": "mapping(address => uint256)"
+              },
+              "valueType": {
+                "id": 8658,
+                "name": "uint",
+                "nodeType": "ElementaryTypeName",
+                "src": "4978:4:7",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                }
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 8665,
+            "nodeType": "VariableDeclaration",
+            "src": "5115:48:7",
+            "nodes": [],
+            "constant": false,
+            "documentation": {
+              "id": 8661,
+              "nodeType": "StructuredDocumentation",
+              "src": "5014:96:7",
+              "text": "@notice The rate at which comp is distributed to the corresponding supply market (per block)"
+            },
+            "functionSelector": "6aa875b5",
+            "mutability": "mutable",
+            "name": "compSupplySpeeds",
+            "nameLocation": "5147:16:7",
+            "scope": 8666,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
+              "typeString": "mapping(address => uint256)"
+            },
+            "typeName": {
+              "id": 8664,
+              "keyType": {
+                "id": 8662,
+                "name": "address",
+                "nodeType": "ElementaryTypeName",
+                "src": "5123:7:7",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "5115:24:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
+                "typeString": "mapping(address => uint256)"
+              },
+              "valueType": {
+                "id": 8663,
+                "name": "uint",
+                "nodeType": "ElementaryTypeName",
+                "src": "5134:4:7",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                }
+              }
+            },
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [
+          {
+            "baseName": {
+              "id": 8654,
+              "name": "ComptrollerV5Storage",
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 8653,
+              "src": "4831:20:7"
+            },
+            "id": 8655,
+            "nodeType": "InheritanceSpecifier",
+            "src": "4831:20:7"
+          }
+        ],
+        "canonicalName": "ComptrollerV6Storage",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          8666,
+          8653,
+          8640,
+          8631,
+          8579,
+          8540,
+          8517
+        ],
+        "name": "ComptrollerV6Storage",
+        "nameLocation": "4807:20:7",
+        "scope": 8678,
+        "usedErrors": []
+      },
+      {
+        "id": 8677,
+        "nodeType": "ContractDefinition",
+        "src": "5168:364:7",
+        "nodes": [
+          {
+            "id": 8671,
+            "nodeType": "VariableDeclaration",
+            "src": "5342:33:7",
+            "nodes": [],
+            "constant": false,
+            "documentation": {
+              "id": 8669,
+              "nodeType": "StructuredDocumentation",
+              "src": "5228:109:7",
+              "text": "@notice Flag indicating whether the function to fix COMP accruals has been executed (RE: proposal 62 bug)"
+            },
+            "functionSelector": "f00a7a92",
+            "mutability": "mutable",
+            "name": "proposal65FixExecuted",
+            "nameLocation": "5354:21:7",
+            "scope": 8677,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_bool",
+              "typeString": "bool"
+            },
+            "typeName": {
+              "id": 8670,
+              "name": "bool",
+              "nodeType": "ElementaryTypeName",
+              "src": "5342:4:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bool",
+                "typeString": "bool"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 8676,
+            "nodeType": "VariableDeclaration",
+            "src": "5483:46:7",
+            "nodes": [],
+            "constant": false,
+            "documentation": {
+              "id": 8672,
+              "nodeType": "StructuredDocumentation",
+              "src": "5382:96:7",
+              "text": "@notice Accounting storage mapping account addresses to how much COMP they owe the protocol."
+            },
+            "functionSelector": "85b7beb8",
+            "mutability": "mutable",
+            "name": "compReceivable",
+            "nameLocation": "5515:14:7",
+            "scope": 8677,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
+              "typeString": "mapping(address => uint256)"
+            },
+            "typeName": {
+              "id": 8675,
+              "keyType": {
+                "id": 8673,
+                "name": "address",
+                "nodeType": "ElementaryTypeName",
+                "src": "5491:7:7",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "5483:24:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
+                "typeString": "mapping(address => uint256)"
+              },
+              "valueType": {
+                "id": 8674,
+                "name": "uint",
+                "nodeType": "ElementaryTypeName",
+                "src": "5502:4:7",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                }
+              }
+            },
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [
+          {
+            "baseName": {
+              "id": 8667,
+              "name": "ComptrollerV6Storage",
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 8666,
+              "src": "5201:20:7"
+            },
+            "id": 8668,
+            "nodeType": "InheritanceSpecifier",
+            "src": "5201:20:7"
+          }
+        ],
+        "canonicalName": "ComptrollerV7Storage",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          8677,
+          8666,
+          8653,
+          8640,
+          8631,
+          8579,
+          8540,
+          8517
+        ],
+        "name": "ComptrollerV7Storage",
+        "nameLocation": "5177:20:7",
+        "scope": 8678,
+        "usedErrors": []
+      }
+    ],
+    "license": "BSD-3-Clause"
+  },
+  "id": 7
+}
