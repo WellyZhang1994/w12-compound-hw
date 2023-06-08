@@ -12,7 +12,7 @@
   },
   "files": {
     "lib/compound-protocol/contracts/CErc20.sol": {
-      "lastModificationDate": 1685701090942,
+      "lastModificationDate": 1686201729366,
       "contentHash": "8cd3ad8e88c9d4c65baeee895033db8c",
       "sourceName": "lib/compound-protocol/contracts/CErc20.sol",
       "solcConfig": {
@@ -64,7 +64,7 @@
       }
     },
     "lib/compound-protocol/contracts/CErc20Delegate.sol": {
-      "lastModificationDate": 1685701090942,
+      "lastModificationDate": 1685701775785,
       "contentHash": "3da7113e09d32e9d943892d840cf7609",
       "sourceName": "lib/compound-protocol/contracts/CErc20Delegate.sol",
       "solcConfig": {
@@ -114,7 +114,7 @@
       }
     },
     "lib/compound-protocol/contracts/CErc20Delegator.sol": {
-      "lastModificationDate": 1685701102819,
+      "lastModificationDate": 1686050578536,
       "contentHash": "7ef4d2ce7230ec395cef259d8a54d40b",
       "sourceName": "lib/compound-protocol/contracts/CErc20Delegator.sol",
       "solcConfig": {
@@ -160,8 +160,8 @@
       }
     },
     "lib/compound-protocol/contracts/CToken.sol": {
-      "lastModificationDate": 1685701090944,
-      "contentHash": "8d52e170e0249c219114fc15118e4dce",
+      "lastModificationDate": 1686201724564,
+      "contentHash": "7ab958a27f5549ca30e977ccd2bcd370",
       "sourceName": "lib/compound-protocol/contracts/CToken.sol",
       "solcConfig": {
         "settings": {
@@ -271,8 +271,8 @@
       }
     },
     "lib/compound-protocol/contracts/Comptroller.sol": {
-      "lastModificationDate": 1685701090944,
-      "contentHash": "f5e71cf86920aaaae6e1002c90998faf",
+      "lastModificationDate": 1686201752120,
+      "contentHash": "5b0644205860ac86bd5d79e91e22e176",
       "sourceName": "lib/compound-protocol/contracts/Comptroller.sol",
       "solcConfig": {
         "settings": {
@@ -515,7 +515,7 @@
       }
     },
     "lib/compound-protocol/contracts/ErrorReporter.sol": {
-      "lastModificationDate": 1685701090946,
+      "lastModificationDate": 1686050522871,
       "contentHash": "a0fcea307efa9b7244be27d0f457d5da",
       "sourceName": "lib/compound-protocol/contracts/ErrorReporter.sol",
       "solcConfig": {
@@ -727,7 +727,7 @@
       }
     },
     "lib/compound-protocol/contracts/SimplePriceOracle.sol": {
-      "lastModificationDate": 1685701090949,
+      "lastModificationDate": 1686051471228,
       "contentHash": "dc597d17356da70892b8d63b49bf42ea",
       "sourceName": "lib/compound-protocol/contracts/SimplePriceOracle.sol",
       "solcConfig": {
@@ -829,7 +829,7 @@
       }
     },
     "lib/compound-protocol/contracts/WhitePaperInterestRateModel.sol": {
-      "lastModificationDate": 1685701090949,
+      "lastModificationDate": 1685703339921,
       "contentHash": "f1cb53432492900e9a4ea6f4583031e1",
       "sourceName": "lib/compound-protocol/contracts/WhitePaperInterestRateModel.sol",
       "solcConfig": {
@@ -1874,8 +1874,8 @@
       }
     },
     "script/Compound.s.sol": {
-      "lastModificationDate": 1685869333389,
-      "contentHash": "fc9914b87315ae424a730ea3bf6dbedd",
+      "lastModificationDate": 1686203041976,
+      "contentHash": "5ef51b9a4ab767d9b586a2203c183a3e",
       "sourceName": "script/Compound.s.sol",
       "solcConfig": {
         "settings": {
@@ -2002,7 +2002,7 @@
       }
     },
     "src/Counter.sol": {
-      "lastModificationDate": 1685667833737,
+      "lastModificationDate": 1685866471224,
       "contentHash": "7044bf65da34aa77bfaf6d603bb37ace",
       "sourceName": "src/Counter.sol",
       "solcConfig": {
@@ -2041,10 +2041,10 @@
         }
       }
     },
-    "test/Counter.t.sol": {
-      "lastModificationDate": 1685866481539,
-      "contentHash": "89268bcb74f94663267c62142196e592",
-      "sourceName": "test/Counter.t.sol",
+    "test/Compound.t.sol": {
+      "lastModificationDate": 1686202557811,
+      "contentHash": "4d3d61a886e56e81ba668a137d34c049",
+      "sourceName": "test/Compound.t.sol",
       "solcConfig": {
         "settings": {
           "optimizer": {
@@ -2074,6 +2074,24 @@
         }
       },
       "imports": [
+        "lib/compound-protocol/contracts/CErc20.sol",
+        "lib/compound-protocol/contracts/CErc20Delegate.sol",
+        "lib/compound-protocol/contracts/CErc20Delegator.sol",
+        "lib/compound-protocol/contracts/CToken.sol",
+        "lib/compound-protocol/contracts/CTokenInterfaces.sol",
+        "lib/compound-protocol/contracts/Comptroller.sol",
+        "lib/compound-protocol/contracts/ComptrollerInterface.sol",
+        "lib/compound-protocol/contracts/ComptrollerStorage.sol",
+        "lib/compound-protocol/contracts/EIP20Interface.sol",
+        "lib/compound-protocol/contracts/EIP20NonStandardInterface.sol",
+        "lib/compound-protocol/contracts/ErrorReporter.sol",
+        "lib/compound-protocol/contracts/ExponentialNoError.sol",
+        "lib/compound-protocol/contracts/Governance/Comp.sol",
+        "lib/compound-protocol/contracts/InterestRateModel.sol",
+        "lib/compound-protocol/contracts/PriceOracle.sol",
+        "lib/compound-protocol/contracts/SimplePriceOracle.sol",
+        "lib/compound-protocol/contracts/Unitroller.sol",
+        "lib/compound-protocol/contracts/WhitePaperInterestRateModel.sol",
         "lib/forge-std/lib/ds-test/src/test.sol",
         "lib/forge-std/src/Base.sol",
         "lib/forge-std/src/StdAssertions.sol",
@@ -2090,12 +2108,144 @@
         "lib/forge-std/src/Vm.sol",
         "lib/forge-std/src/console.sol",
         "lib/forge-std/src/console2.sol",
-        "lib/forge-std/src/interfaces/IMulticall3.sol"
+        "lib/forge-std/src/interfaces/IMulticall3.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+        "lib/openzeppelin-contracts/contracts/utils/Context.sol",
+        "test/helper/CompoundSetup.t.sol",
+        "test/helper/WERC20.sol"
       ],
-      "versionRequirement": "^0.8.6",
+      "versionRequirement": ">=0.8.6",
       "artifacts": {
-        "CounterTest": {
-          "0.8.10+commit.fc410830.Darwin.appleclang": "Counter.t.sol/CounterTest.json"
+        "CompoundTest": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "Compound.t.sol/CompoundTest.json"
+        }
+      }
+    },
+    "test/helper/CompoundSetup.t.sol": {
+      "lastModificationDate": 1686201893443,
+      "contentHash": "d94490abcf855153fe14f99cc3d8e36b",
+      "sourceName": "test/helper/CompoundSetup.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/compound-protocol/contracts/CErc20.sol",
+        "lib/compound-protocol/contracts/CErc20Delegate.sol",
+        "lib/compound-protocol/contracts/CErc20Delegator.sol",
+        "lib/compound-protocol/contracts/CToken.sol",
+        "lib/compound-protocol/contracts/CTokenInterfaces.sol",
+        "lib/compound-protocol/contracts/Comptroller.sol",
+        "lib/compound-protocol/contracts/ComptrollerInterface.sol",
+        "lib/compound-protocol/contracts/ComptrollerStorage.sol",
+        "lib/compound-protocol/contracts/EIP20Interface.sol",
+        "lib/compound-protocol/contracts/EIP20NonStandardInterface.sol",
+        "lib/compound-protocol/contracts/ErrorReporter.sol",
+        "lib/compound-protocol/contracts/ExponentialNoError.sol",
+        "lib/compound-protocol/contracts/Governance/Comp.sol",
+        "lib/compound-protocol/contracts/InterestRateModel.sol",
+        "lib/compound-protocol/contracts/PriceOracle.sol",
+        "lib/compound-protocol/contracts/SimplePriceOracle.sol",
+        "lib/compound-protocol/contracts/Unitroller.sol",
+        "lib/compound-protocol/contracts/WhitePaperInterestRateModel.sol",
+        "lib/forge-std/lib/ds-test/src/test.sol",
+        "lib/forge-std/src/Base.sol",
+        "lib/forge-std/src/StdAssertions.sol",
+        "lib/forge-std/src/StdChains.sol",
+        "lib/forge-std/src/StdCheats.sol",
+        "lib/forge-std/src/StdError.sol",
+        "lib/forge-std/src/StdInvariant.sol",
+        "lib/forge-std/src/StdJson.sol",
+        "lib/forge-std/src/StdMath.sol",
+        "lib/forge-std/src/StdStorage.sol",
+        "lib/forge-std/src/StdStyle.sol",
+        "lib/forge-std/src/StdUtils.sol",
+        "lib/forge-std/src/Test.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/console.sol",
+        "lib/forge-std/src/console2.sol",
+        "lib/forge-std/src/interfaces/IMulticall3.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+        "lib/openzeppelin-contracts/contracts/utils/Context.sol",
+        "test/helper/WERC20.sol"
+      ],
+      "versionRequirement": ">=0.8.6",
+      "artifacts": {
+        "CompoundSetup": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "CompoundSetup.t.sol/CompoundSetup.json"
+        }
+      }
+    },
+    "test/helper/WERC20.sol": {
+      "lastModificationDate": 1686027580964,
+      "contentHash": "8a82ac1d47778f24a8eb38ce20c5fbf4",
+      "sourceName": "test/helper/WERC20.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+        "lib/openzeppelin-contracts/contracts/utils/Context.sol"
+      ],
+      "versionRequirement": ">=0.8.6",
+      "artifacts": {
+        "WERC20": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "WERC20.sol/WERC20.json"
         }
       }
     }

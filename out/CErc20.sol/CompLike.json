@@ -27,7 +27,7 @@
   "methodIdentifiers": {
     "delegate(address)": "5c19a95c"
   },
-  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"delegatee\",\"type\":\"address\"}],\"name\":\"delegate\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"lib/compound-protocol/contracts/CErc20.sol\":\"CompLike\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@openzeppelin/=lib/openzeppelin-contracts/\",\":compound-protocol/=lib/compound-protocol/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/\",\":forge-std/=lib/forge-std/src/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\",\":openzeppelin/=lib/openzeppelin-contracts/contracts/\"]},\"sources\":{\"lib/compound-protocol/contracts/CErc20.sol\":{\"keccak256\":\"0x73fb5617eaee108a1381986053d5867db329aa0d3e59b59ffe1bf4da0553d94b\",\"license\":\"BSD-3-Clause\",\"urls\":[\"bzz-raw://b2f74248127513836fc1cebde0400689f815e7a271142b39e91265b531043afc\",\"dweb:/ipfs/QmdWeqoRD4CdeV1AmMYDKEFzoDXvWzfkWrm67Bmku9hhK7\"]},\"lib/compound-protocol/contracts/CToken.sol\":{\"keccak256\":\"0x9b54ee8e83bff51505ececf52d9098e1b09b87960429e55e5d19da339b9e0387\",\"license\":\"BSD-3-Clause\",\"urls\":[\"bzz-raw://d5f74fd8bb140276bedcf5732a0a400fffddcb4191b20f1be788e419c9ce6fc7\",\"dweb:/ipfs/QmY8vLMDeoxsEBA8cqa4mfEQPiD4mL7BngkzCAuLJeQwMi\"]},\"lib/compound-protocol/contracts/CTokenInterfaces.sol\":{\"keccak256\":\"0x7d4526d84f489d61cb128cbbceb9add16b64bf0ae00097cac8c83b5662ffa1d9\",\"license\":\"BSD-3-Clause\",\"urls\":[\"bzz-raw://a1eba59aea76970fc0dbd2db1e5bb6b9ba17c5366117ab0e138d053ed221baad\",\"dweb:/ipfs/Qmb9Xa78W8j4LJZo3MW5wvdxphCd2EEmQc7CcQJ7zAVJ1H\"]},\"lib/compound-protocol/contracts/ComptrollerInterface.sol\":{\"keccak256\":\"0x4111ff0414696caca696cf36ecf3add15133933b51ba57c56cfb08989c82d44f\",\"license\":\"BSD-3-Clause\",\"urls\":[\"bzz-raw://bed8b7b5ed928e0bb2056963df31825eafd648ea5313e57b4d12f62a54766e84\",\"dweb:/ipfs/QmVFrWFGDypompUL6Np68PE7ykdjSNf9DcepLKniJ1fgFk\"]},\"lib/compound-protocol/contracts/EIP20Interface.sol\":{\"keccak256\":\"0xf44fc7783d4a0060119f0096a122c3f305c7a03da75aa21408393d8d7a2e649b\",\"license\":\"BSD-3-Clause\",\"urls\":[\"bzz-raw://98edcf6c8e46b8340174c4fbda657a8390d71167dfad2fef6d26b049659549db\",\"dweb:/ipfs/QmPiqcGe1te4TBiNGuDuBDwEjnhSQWqfqC85hFkbwFVXzi\"]},\"lib/compound-protocol/contracts/EIP20NonStandardInterface.sol\":{\"keccak256\":\"0x5ce25bb36a4ec9490617567a24b55bc813e943bcd4411e060afffe122bea0416\",\"license\":\"BSD-3-Clause\",\"urls\":[\"bzz-raw://ffb7208e6c62875cb0ee30940c5967411c8ddf6b259d52a445ee09fd7020d698\",\"dweb:/ipfs/QmX6HCfaWJxJsG4sK8EAzm75ymmJSgytxomXppgfnJgkh7\"]},\"lib/compound-protocol/contracts/ErrorReporter.sol\":{\"keccak256\":\"0xc565694807fce4d9eb218b77d2e7eb7665e0d6950cbfa9edd1e3c09e417b809c\",\"license\":\"BSD-3-Clause\",\"urls\":[\"bzz-raw://610e579eb6fbd8da9ba8f2d04f17b2213e858466177c488e2f3e4a37a314b864\",\"dweb:/ipfs/QmZmEvsi6qkvaPg6j2u3D3QZJbRtm2CPz8jf83HRkKrxuu\"]},\"lib/compound-protocol/contracts/ExponentialNoError.sol\":{\"keccak256\":\"0x3a05062282ef8cbf6ec372abc73387ac8105a7eb0ea0f38069ebfd0f434ff98b\",\"license\":\"BSD-3-Clause\",\"urls\":[\"bzz-raw://2aed68e944fba607a9eb176f7b5c0fe59f84d82e2e102b8d6db63ce5018548a9\",\"dweb:/ipfs/QmZJVBDDtFpqA8ZerzX4rGdBUsnA1tooHKxpKCWWvqRhJC\"]},\"lib/compound-protocol/contracts/InterestRateModel.sol\":{\"keccak256\":\"0x470821c8ff2120381ead6f54dba5c7b4fc0209682062bde51ea20291176aa0be\",\"license\":\"BSD-3-Clause\",\"urls\":[\"bzz-raw://183fcf6b83f8183ef7930b51a5438ef9ab5a16702b76ab953892e40ef3688e34\",\"dweb:/ipfs/QmTZXAJ6pCPiDbZmdzU1LpVzYru978ApNESrRqhGiKT4Lq\"]}},\"version\":1}",
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"delegatee\",\"type\":\"address\"}],\"name\":\"delegate\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"lib/compound-protocol/contracts/CErc20.sol\":\"CompLike\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@openzeppelin/=lib/openzeppelin-contracts/\",\":compound-protocol/=lib/compound-protocol/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/\",\":forge-std/=lib/forge-std/src/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\",\":openzeppelin/=lib/openzeppelin-contracts/contracts/\"]},\"sources\":{\"lib/compound-protocol/contracts/CErc20.sol\":{\"keccak256\":\"0x73fb5617eaee108a1381986053d5867db329aa0d3e59b59ffe1bf4da0553d94b\",\"license\":\"BSD-3-Clause\",\"urls\":[\"bzz-raw://b2f74248127513836fc1cebde0400689f815e7a271142b39e91265b531043afc\",\"dweb:/ipfs/QmdWeqoRD4CdeV1AmMYDKEFzoDXvWzfkWrm67Bmku9hhK7\"]},\"lib/compound-protocol/contracts/CToken.sol\":{\"keccak256\":\"0xe0844bfc3e4ff16637c234bd13459c01932b34a3b83fb9779179dc5009adb893\",\"license\":\"BSD-3-Clause\",\"urls\":[\"bzz-raw://46e14e5053d1df67131eeb27229cb55be6c6ccbdd4b8db9b41469fb5d13ce485\",\"dweb:/ipfs/QmVQRwUuiCL39kXiZqHayHpefgXxoNEWUxWNtigPhGjaGh\"]},\"lib/compound-protocol/contracts/CTokenInterfaces.sol\":{\"keccak256\":\"0x7d4526d84f489d61cb128cbbceb9add16b64bf0ae00097cac8c83b5662ffa1d9\",\"license\":\"BSD-3-Clause\",\"urls\":[\"bzz-raw://a1eba59aea76970fc0dbd2db1e5bb6b9ba17c5366117ab0e138d053ed221baad\",\"dweb:/ipfs/Qmb9Xa78W8j4LJZo3MW5wvdxphCd2EEmQc7CcQJ7zAVJ1H\"]},\"lib/compound-protocol/contracts/ComptrollerInterface.sol\":{\"keccak256\":\"0x4111ff0414696caca696cf36ecf3add15133933b51ba57c56cfb08989c82d44f\",\"license\":\"BSD-3-Clause\",\"urls\":[\"bzz-raw://bed8b7b5ed928e0bb2056963df31825eafd648ea5313e57b4d12f62a54766e84\",\"dweb:/ipfs/QmVFrWFGDypompUL6Np68PE7ykdjSNf9DcepLKniJ1fgFk\"]},\"lib/compound-protocol/contracts/EIP20Interface.sol\":{\"keccak256\":\"0xf44fc7783d4a0060119f0096a122c3f305c7a03da75aa21408393d8d7a2e649b\",\"license\":\"BSD-3-Clause\",\"urls\":[\"bzz-raw://98edcf6c8e46b8340174c4fbda657a8390d71167dfad2fef6d26b049659549db\",\"dweb:/ipfs/QmPiqcGe1te4TBiNGuDuBDwEjnhSQWqfqC85hFkbwFVXzi\"]},\"lib/compound-protocol/contracts/EIP20NonStandardInterface.sol\":{\"keccak256\":\"0x5ce25bb36a4ec9490617567a24b55bc813e943bcd4411e060afffe122bea0416\",\"license\":\"BSD-3-Clause\",\"urls\":[\"bzz-raw://ffb7208e6c62875cb0ee30940c5967411c8ddf6b259d52a445ee09fd7020d698\",\"dweb:/ipfs/QmX6HCfaWJxJsG4sK8EAzm75ymmJSgytxomXppgfnJgkh7\"]},\"lib/compound-protocol/contracts/ErrorReporter.sol\":{\"keccak256\":\"0xc565694807fce4d9eb218b77d2e7eb7665e0d6950cbfa9edd1e3c09e417b809c\",\"license\":\"BSD-3-Clause\",\"urls\":[\"bzz-raw://610e579eb6fbd8da9ba8f2d04f17b2213e858466177c488e2f3e4a37a314b864\",\"dweb:/ipfs/QmZmEvsi6qkvaPg6j2u3D3QZJbRtm2CPz8jf83HRkKrxuu\"]},\"lib/compound-protocol/contracts/ExponentialNoError.sol\":{\"keccak256\":\"0x3a05062282ef8cbf6ec372abc73387ac8105a7eb0ea0f38069ebfd0f434ff98b\",\"license\":\"BSD-3-Clause\",\"urls\":[\"bzz-raw://2aed68e944fba607a9eb176f7b5c0fe59f84d82e2e102b8d6db63ce5018548a9\",\"dweb:/ipfs/QmZJVBDDtFpqA8ZerzX4rGdBUsnA1tooHKxpKCWWvqRhJC\"]},\"lib/compound-protocol/contracts/InterestRateModel.sol\":{\"keccak256\":\"0x470821c8ff2120381ead6f54dba5c7b4fc0209682062bde51ea20291176aa0be\",\"license\":\"BSD-3-Clause\",\"urls\":[\"bzz-raw://183fcf6b83f8183ef7930b51a5438ef9ab5a16702b76ab953892e40ef3688e34\",\"dweb:/ipfs/QmTZXAJ6pCPiDbZmdzU1LpVzYru978ApNESrRqhGiKT4Lq\"]}},\"version\":1}",
   "metadata": {
     "compiler": {
       "version": "0.8.10+commit.fc410830"
@@ -91,10 +91,10 @@
         "license": "BSD-3-Clause"
       },
       "lib/compound-protocol/contracts/CToken.sol": {
-        "keccak256": "0x9b54ee8e83bff51505ececf52d9098e1b09b87960429e55e5d19da339b9e0387",
+        "keccak256": "0xe0844bfc3e4ff16637c234bd13459c01932b34a3b83fb9779179dc5009adb893",
         "urls": [
-          "bzz-raw://d5f74fd8bb140276bedcf5732a0a400fffddcb4191b20f1be788e419c9ce6fc7",
-          "dweb:/ipfs/QmY8vLMDeoxsEBA8cqa4mfEQPiD4mL7BngkzCAuLJeQwMi"
+          "bzz-raw://46e14e5053d1df67131eeb27229cb55be6c6ccbdd4b8db9b41469fb5d13ce485",
+          "dweb:/ipfs/QmVQRwUuiCL39kXiZqHayHpefgXxoNEWUxWNtigPhGjaGh"
         ],
         "license": "BSD-3-Clause"
       },
@@ -192,25 +192,25 @@
         8
       ],
       "ComptrollerErrorReporter": [
-        4750
+        8954
       ],
       "ComptrollerInterface": [
-        4473
+        8500
       ],
       "EIP20Interface": [
-        4564
+        8768
       ],
       "EIP20NonStandardInterface": [
-        4636
+        8840
       ],
       "ExponentialNoError": [
-        5485
+        9689
       ],
       "InterestRateModel": [
-        5519
+        10723
       ],
       "TokenErrorReporter": [
-        4852
+        9056
       ]
     },
     "nodeType": "SourceUnit",
@@ -345,7 +345,7 @@
                         "referencedDeclaration": 19,
                         "src": "1273:12:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ComptrollerInterface_$4473",
+                          "typeIdentifier": "t_contract$_ComptrollerInterface_$8500",
                           "typeString": "contract ComptrollerInterface"
                         }
                       },
@@ -357,7 +357,7 @@
                         "referencedDeclaration": 22,
                         "src": "1287:18:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_InterestRateModel_$5519",
+                          "typeIdentifier": "t_contract$_InterestRateModel_$10723",
                           "typeString": "contract InterestRateModel"
                         }
                       },
@@ -413,11 +413,11 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_contract$_ComptrollerInterface_$4473",
+                          "typeIdentifier": "t_contract$_ComptrollerInterface_$8500",
                           "typeString": "contract ComptrollerInterface"
                         },
                         {
-                          "typeIdentifier": "t_contract$_InterestRateModel_$5519",
+                          "typeIdentifier": "t_contract$_InterestRateModel_$10723",
                           "typeString": "contract InterestRateModel"
                         },
                         {
@@ -459,7 +459,7 @@
                       "referencedDeclaration": 1687,
                       "src": "1256:16:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_nonpayable$_t_contract$_ComptrollerInterface_$4473_$_t_contract$_InterestRateModel_$5519_$_t_uint256_$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_uint8_$returns$__$",
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_contract$_ComptrollerInterface_$8500_$_t_contract$_InterestRateModel_$10723_$_t_uint256_$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_uint8_$returns$__$",
                         "typeString": "function (contract ComptrollerInterface,contract InterestRateModel,uint256,string memory,string memory,uint8)"
                       }
                     },
@@ -556,10 +556,10 @@
                           "name": "EIP20Interface",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4564,
+                          "referencedDeclaration": 8768,
                           "src": "1454:14:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_type$_t_contract$_EIP20Interface_$4564_$",
+                            "typeIdentifier": "t_type$_t_contract$_EIP20Interface_$8768_$",
                             "typeString": "type(contract EIP20Interface)"
                           }
                         },
@@ -574,7 +574,7 @@
                         "src": "1454:26:0",
                         "tryCall": false,
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_EIP20Interface_$4564",
+                          "typeIdentifier": "t_contract$_EIP20Interface_$8768",
                           "typeString": "contract EIP20Interface"
                         }
                       },
@@ -585,7 +585,7 @@
                       "lValueRequested": false,
                       "memberName": "totalSupply",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 4497,
+                      "referencedDeclaration": 8701,
                       "src": "1454:38:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
@@ -669,7 +669,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_ComptrollerInterface_$4473",
+                    "typeIdentifier": "t_contract$_ComptrollerInterface_$8500",
                     "typeString": "contract ComptrollerInterface"
                   },
                   "typeName": {
@@ -679,13 +679,13 @@
                       "id": 17,
                       "name": "ComptrollerInterface",
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 4473,
+                      "referencedDeclaration": 8500,
                       "src": "895:20:0"
                     },
-                    "referencedDeclaration": 4473,
+                    "referencedDeclaration": 8500,
                     "src": "895:20:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ComptrollerInterface_$4473",
+                      "typeIdentifier": "t_contract$_ComptrollerInterface_$8500",
                       "typeString": "contract ComptrollerInterface"
                     }
                   },
@@ -703,7 +703,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_InterestRateModel_$5519",
+                    "typeIdentifier": "t_contract$_InterestRateModel_$10723",
                     "typeString": "contract InterestRateModel"
                   },
                   "typeName": {
@@ -713,13 +713,13 @@
                       "id": 20,
                       "name": "InterestRateModel",
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 5519,
+                      "referencedDeclaration": 10723,
                       "src": "954:17:0"
                     },
-                    "referencedDeclaration": 5519,
+                    "referencedDeclaration": 10723,
                     "src": "954:17:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_InterestRateModel_$5519",
+                      "typeIdentifier": "t_contract$_InterestRateModel_$10723",
                       "typeString": "contract InterestRateModel"
                     }
                   },
@@ -917,7 +917,7 @@
                     "name": "NO_ERROR",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 4753,
+                    "referencedDeclaration": 8957,
                     "src": "1996:8:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
@@ -1095,7 +1095,7 @@
                     "name": "NO_ERROR",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 4753,
+                    "referencedDeclaration": 8957,
                     "src": "2477:8:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
@@ -1273,7 +1273,7 @@
                     "name": "NO_ERROR",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 4753,
+                    "referencedDeclaration": 8957,
                     "src": "2983:8:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
@@ -1451,7 +1451,7 @@
                     "name": "NO_ERROR",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 4753,
+                    "referencedDeclaration": 8957,
                     "src": "3382:8:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
@@ -1629,7 +1629,7 @@
                     "name": "NO_ERROR",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 4753,
+                    "referencedDeclaration": 8957,
                     "src": "3768:8:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
@@ -1823,7 +1823,7 @@
                     "name": "NO_ERROR",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 4753,
+                    "referencedDeclaration": 8957,
                     "src": "4273:8:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
@@ -2061,7 +2061,7 @@
                     "name": "NO_ERROR",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 4753,
+                    "referencedDeclaration": 8957,
                     "src": "4979:8:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
@@ -2385,7 +2385,7 @@
                               "referencedDeclaration": 181,
                               "src": "5387:5:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_EIP20NonStandardInterface_$4636",
+                                "typeIdentifier": "t_contract$_EIP20NonStandardInterface_$8840",
                                 "typeString": "contract EIP20NonStandardInterface"
                               }
                             }
@@ -2393,7 +2393,7 @@
                           "expression": {
                             "argumentTypes": [
                               {
-                                "typeIdentifier": "t_contract$_EIP20NonStandardInterface_$4636",
+                                "typeIdentifier": "t_contract$_EIP20NonStandardInterface_$8840",
                                 "typeString": "contract EIP20NonStandardInterface"
                               }
                             ],
@@ -2620,7 +2620,7 @@
                         "referencedDeclaration": 181,
                         "src": "5490:5:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_EIP20NonStandardInterface_$4636",
+                          "typeIdentifier": "t_contract$_EIP20NonStandardInterface_$8840",
                           "typeString": "contract EIP20NonStandardInterface"
                         }
                       },
@@ -2631,7 +2631,7 @@
                       "lValueRequested": false,
                       "memberName": "balanceOf",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 4581,
+                      "referencedDeclaration": 8785,
                       "src": "5490:15:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_uint256_$",
@@ -2703,7 +2703,7 @@
                         "referencedDeclaration": 181,
                         "src": "5530:5:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_EIP20NonStandardInterface_$4636",
+                          "typeIdentifier": "t_contract$_EIP20NonStandardInterface_$8840",
                           "typeString": "contract EIP20NonStandardInterface"
                         }
                       },
@@ -2714,7 +2714,7 @@
                       "lValueRequested": false,
                       "memberName": "transfer",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 4589,
+                      "referencedDeclaration": 8793,
                       "src": "5530:14:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_uint256_$returns$__$",
@@ -2779,7 +2779,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_EIP20NonStandardInterface_$4636",
+                    "typeIdentifier": "t_contract$_EIP20NonStandardInterface_$8840",
                     "typeString": "contract EIP20NonStandardInterface"
                   },
                   "typeName": {
@@ -2789,13 +2789,13 @@
                       "id": 179,
                       "name": "EIP20NonStandardInterface",
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 4636,
+                      "referencedDeclaration": 8840,
                       "src": "5221:25:0"
                     },
-                    "referencedDeclaration": 4636,
+                    "referencedDeclaration": 8840,
                     "src": "5221:25:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_EIP20NonStandardInterface_$4636",
+                      "typeIdentifier": "t_contract$_EIP20NonStandardInterface_$8840",
                       "typeString": "contract EIP20NonStandardInterface"
                     }
                   },
@@ -3004,7 +3004,7 @@
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_EIP20Interface_$4564",
+                        "typeIdentifier": "t_contract$_EIP20Interface_$8768",
                         "typeString": "contract EIP20Interface"
                       },
                       "typeName": {
@@ -3014,13 +3014,13 @@
                           "id": 242,
                           "name": "EIP20Interface",
                           "nodeType": "IdentifierPath",
-                          "referencedDeclaration": 4564,
+                          "referencedDeclaration": 8768,
                           "src": "6259:14:0"
                         },
-                        "referencedDeclaration": 4564,
+                        "referencedDeclaration": 8768,
                         "src": "6259:14:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_EIP20Interface_$4564",
+                          "typeIdentifier": "t_contract$_EIP20Interface_$8768",
                           "typeString": "contract EIP20Interface"
                         }
                       },
@@ -3054,10 +3054,10 @@
                       "name": "EIP20Interface",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4564,
+                      "referencedDeclaration": 8768,
                       "src": "6282:14:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_EIP20Interface_$4564_$",
+                        "typeIdentifier": "t_type$_t_contract$_EIP20Interface_$8768_$",
                         "typeString": "type(contract EIP20Interface)"
                       }
                     },
@@ -3072,7 +3072,7 @@
                     "src": "6282:26:0",
                     "tryCall": false,
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_EIP20Interface_$4564",
+                      "typeIdentifier": "t_contract$_EIP20Interface_$8768",
                       "typeString": "contract EIP20Interface"
                     }
                   },
@@ -3154,7 +3154,7 @@
                         "referencedDeclaration": 244,
                         "src": "6325:5:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_EIP20Interface_$4564",
+                          "typeIdentifier": "t_contract$_EIP20Interface_$8768",
                           "typeString": "contract EIP20Interface"
                         }
                       },
@@ -3165,7 +3165,7 @@
                       "lValueRequested": false,
                       "memberName": "balanceOf",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 4505,
+                      "referencedDeclaration": 8709,
                       "src": "6325:15:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_uint256_$",
@@ -3337,7 +3337,7 @@
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_EIP20NonStandardInterface_$4636",
+                        "typeIdentifier": "t_contract$_EIP20NonStandardInterface_$8840",
                         "typeString": "contract EIP20NonStandardInterface"
                       },
                       "typeName": {
@@ -3347,13 +3347,13 @@
                           "id": 273,
                           "name": "EIP20NonStandardInterface",
                           "nodeType": "IdentifierPath",
-                          "referencedDeclaration": 4636,
+                          "referencedDeclaration": 8840,
                           "src": "7144:25:0"
                         },
-                        "referencedDeclaration": 4636,
+                        "referencedDeclaration": 8840,
                         "src": "7144:25:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_EIP20NonStandardInterface_$4636",
+                          "typeIdentifier": "t_contract$_EIP20NonStandardInterface_$8840",
                           "typeString": "contract EIP20NonStandardInterface"
                         }
                       },
@@ -3387,10 +3387,10 @@
                       "name": "EIP20NonStandardInterface",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4636,
+                      "referencedDeclaration": 8840,
                       "src": "7178:25:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_EIP20NonStandardInterface_$4636_$",
+                        "typeIdentifier": "t_type$_t_contract$_EIP20NonStandardInterface_$8840_$",
                         "typeString": "type(contract EIP20NonStandardInterface)"
                       }
                     },
@@ -3405,7 +3405,7 @@
                     "src": "7178:38:0",
                     "tryCall": false,
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_EIP20NonStandardInterface_$4636",
+                      "typeIdentifier": "t_contract$_EIP20NonStandardInterface_$8840",
                       "typeString": "contract EIP20NonStandardInterface"
                     }
                   },
@@ -3538,10 +3538,10 @@
                           "name": "EIP20Interface",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4564,
+                          "referencedDeclaration": 8768,
                           "src": "7247:14:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_type$_t_contract$_EIP20Interface_$4564_$",
+                            "typeIdentifier": "t_type$_t_contract$_EIP20Interface_$8768_$",
                             "typeString": "type(contract EIP20Interface)"
                           }
                         },
@@ -3556,7 +3556,7 @@
                         "src": "7247:27:0",
                         "tryCall": false,
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_EIP20Interface_$4564",
+                          "typeIdentifier": "t_contract$_EIP20Interface_$8768",
                           "typeString": "contract EIP20Interface"
                         }
                       },
@@ -3567,7 +3567,7 @@
                       "lValueRequested": false,
                       "memberName": "balanceOf",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 4505,
+                      "referencedDeclaration": 8709,
                       "src": "7247:37:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_uint256_$",
@@ -3699,7 +3699,7 @@
                         "referencedDeclaration": 275,
                         "src": "7309:5:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_EIP20NonStandardInterface_$4636",
+                          "typeIdentifier": "t_contract$_EIP20NonStandardInterface_$8840",
                           "typeString": "contract EIP20NonStandardInterface"
                         }
                       },
@@ -3710,7 +3710,7 @@
                       "lValueRequested": false,
                       "memberName": "transferFrom",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 4599,
+                      "referencedDeclaration": 8803,
                       "src": "7309:18:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$__$",
@@ -4187,10 +4187,10 @@
                           "name": "EIP20Interface",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4564,
+                          "referencedDeclaration": 8768,
                           "src": "8158:14:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_type$_t_contract$_EIP20Interface_$4564_$",
+                            "typeIdentifier": "t_type$_t_contract$_EIP20Interface_$8768_$",
                             "typeString": "type(contract EIP20Interface)"
                           }
                         },
@@ -4205,7 +4205,7 @@
                         "src": "8158:27:0",
                         "tryCall": false,
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_EIP20Interface_$4564",
+                          "typeIdentifier": "t_contract$_EIP20Interface_$8768",
                           "typeString": "contract EIP20Interface"
                         }
                       },
@@ -4216,7 +4216,7 @@
                       "lValueRequested": false,
                       "memberName": "balanceOf",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 4505,
+                      "referencedDeclaration": 8709,
                       "src": "8158:37:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_uint256_$",
@@ -4440,7 +4440,7 @@
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_EIP20NonStandardInterface_$4636",
+                        "typeIdentifier": "t_contract$_EIP20NonStandardInterface_$8840",
                         "typeString": "contract EIP20NonStandardInterface"
                       },
                       "typeName": {
@@ -4450,13 +4450,13 @@
                           "id": 338,
                           "name": "EIP20NonStandardInterface",
                           "nodeType": "IdentifierPath",
-                          "referencedDeclaration": 4636,
+                          "referencedDeclaration": 8840,
                           "src": "9099:25:0"
                         },
-                        "referencedDeclaration": 4636,
+                        "referencedDeclaration": 8840,
                         "src": "9099:25:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_EIP20NonStandardInterface_$4636",
+                          "typeIdentifier": "t_contract$_EIP20NonStandardInterface_$8840",
                           "typeString": "contract EIP20NonStandardInterface"
                         }
                       },
@@ -4490,10 +4490,10 @@
                       "name": "EIP20NonStandardInterface",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4636,
+                      "referencedDeclaration": 8840,
                       "src": "9133:25:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_EIP20NonStandardInterface_$4636_$",
+                        "typeIdentifier": "t_type$_t_contract$_EIP20NonStandardInterface_$8840_$",
                         "typeString": "type(contract EIP20NonStandardInterface)"
                       }
                     },
@@ -4508,7 +4508,7 @@
                     "src": "9133:37:0",
                     "tryCall": false,
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_EIP20NonStandardInterface_$4636",
+                      "typeIdentifier": "t_contract$_EIP20NonStandardInterface_$8840",
                       "typeString": "contract EIP20NonStandardInterface"
                     }
                   },
@@ -4562,7 +4562,7 @@
                         "referencedDeclaration": 340,
                         "src": "9180:5:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_EIP20NonStandardInterface_$4636",
+                          "typeIdentifier": "t_contract$_EIP20NonStandardInterface_$8840",
                           "typeString": "contract EIP20NonStandardInterface"
                         }
                       },
@@ -4573,7 +4573,7 @@
                       "lValueRequested": false,
                       "memberName": "transfer",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 4589,
+                      "referencedDeclaration": 8793,
                       "src": "9180:14:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_uint256_$returns$__$",
@@ -5357,8 +5357,8 @@
           4228,
           4156,
           3754,
-          4852,
-          5485,
+          9056,
+          9689,
           4152,
           3837
         ],
@@ -5366,44 +5366,44 @@
         "nameLocation": "291:6:0",
         "scope": 386,
         "usedErrors": [
-          4757,
-          4759,
-          4761,
-          4763,
-          4767,
-          4769,
-          4773,
-          4775,
-          4777,
-          4781,
-          4783,
-          4785,
-          4789,
-          4791,
-          4795,
-          4797,
-          4799,
-          4803,
-          4807,
-          4809,
-          4811,
-          4813,
-          4817,
-          4821,
-          4823,
-          4825,
-          4827,
-          4829,
-          4831,
-          4833,
-          4835,
-          4839,
-          4841,
-          4843,
-          4845,
-          4847,
-          4849,
-          4851
+          8961,
+          8963,
+          8965,
+          8967,
+          8971,
+          8973,
+          8977,
+          8979,
+          8981,
+          8985,
+          8987,
+          8989,
+          8993,
+          8995,
+          8999,
+          9001,
+          9003,
+          9007,
+          9011,
+          9013,
+          9015,
+          9017,
+          9021,
+          9025,
+          9027,
+          9029,
+          9031,
+          9033,
+          9035,
+          9037,
+          9039,
+          9043,
+          9045,
+          9047,
+          9049,
+          9051,
+          9053,
+          9055
         ]
       }
     ],

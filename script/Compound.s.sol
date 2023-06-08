@@ -41,10 +41,14 @@ contract MyScript is Script {
         //Check caller is pendingImplementation and pendingImplementation ≠ address(0)
         //因此 _acceptImplementation 必須由 comptroller (Implementation) 合約進行呼叫
         //vm.prank(address(comptroller)); 無法在廣播裡使用 prank
-        unitroller._acceptImplementation();
+        //unitroller._acceptImplementation();
+        //使用 become 即可成功
+        comptroller._become(unitroller);
 
         SimplePriceOracle simplePriceOracle = new SimplePriceOracle();
         unitrollerProxy._setPriceOracle(simplePriceOracle);
+        unitrollerProxy._setCloseFactor(500000000000000000);
+        unitrollerProxy._setLiquidationIncentive(1080000000000000000);
 
         WhitePaperInterestRateModel interestRateModel_ = new WhitePaperInterestRateModel(baseRatePerYear, multiplierPerYear);
 
